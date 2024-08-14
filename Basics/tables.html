@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in HTML</title>
+</head>
+
+<body>
+    <table border="Black">
+        <caption>
+            <h1><b>Food Menu</b></h1>
+        </caption>
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th>Sr.</th>
+                <th>Items</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <!-- Table Body -->
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Paneer Kofta</td>
+                <td>250/-</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Paneer Chilli</td>
+                <td>350/-</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Paneer Kolhapuri</td>
+                <td>270/-</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Paneer Maratha</td>
+                <td>220/-</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paneer Hedrabadi</td>
+                <td>450/-</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <hr>
+
+    <!-- New Table for Colspan & Rowspan Attribute -->
+
+    <table border="black">
+
+        <caption>
+            <h2><b>Food Menu</b></h2>
+        </caption>
+
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th rowspan="2">Sr No.</th>
+                <th rowspan="2">Items</th>
+                <th colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>IND</th>
+                <th>EURO</th>
+            </tr>
+
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+
+            <tr>
+                <td>1.</td>
+                <td>Cheese Pasta</td>
+                <td>&#8377; 100</td>
+                <td> &euro; 1.2 </td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>K-Pop Pasta</td>
+                <td>&#8377; 120</td>
+                <td>&euro; 1.6</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Indo Pasta</td>
+                <td>&#8377; 150</td>
+                <td>&euro; 1.8</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Americano Pasta</td>
+                <td>&#8377; 180</td>
+                <td>&euro; 2.2</td>
+
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Italian Pasta</td>
+                <td>&#8377; 200</td>
+                <td>&euro; 2.4</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <!-- A Table With Merged Cells -->
+    <table border="black">
+
+        <caption>
+            <h3><b>BMI : Male vs Female</b></h3>
+        </caption>
+
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th rowspan="2">Gender</th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red Eyes</th>
+
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>               
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <hr>
+</body>
+
+</html>
